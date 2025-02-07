@@ -14,6 +14,10 @@ This project is a Discord bot that integrates with an Express server to generate
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [Discord Developer Account](https://discord.com/developers/applications)
+- ollama installed in your system . Head over to ollama website to install ollama [link](https://ollama.com/)
+
+### First Step:
+start ollama using `ollama serve`
 
 ### 1. Clone the repository
 ```sh
