@@ -16,6 +16,15 @@ Ensure you have the following installed:
 - [Discord Developer Account](https://discord.com/developers/applications)
 - ollama installed in your system . Head over to ollama website to install ollama [link](https://ollama.com/)
 
+### Discord Developer Step:-
+- Go to Discord Developer Portal and sign in your account
+- Click on Application and create new application
+- Click on Bot and enable MESSAGE CONTENT INTENT
+- Navigate to OAuth2 → URL Generator.
+- Select: bot and Send Messages,Read Message History under bot permissions
+- Copy the generated invite link and paste it in your browser to add the bot to your server.
+- Go back to bot and copy TOKEN
+
 ### First Step:
 start ollama using `ollama serve`
 
@@ -47,7 +56,7 @@ node index.js
 ### 5. Start the Discord bot
 Run:
 ```sh
-node bot.js
+npm run bot
 ```
 
 ## Usage
