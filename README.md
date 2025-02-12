@@ -45,6 +45,7 @@ The installation can be divided into two steps, since the project is currently n
 
    ![Copy Bot Token](screenshots/bot-token.png)
 
+
 ---
 
 ## **4. Add the Bot to a Discord Server**
@@ -75,6 +76,11 @@ Before running the bot, make sure Ollama is installed and running (if you do not
 ollama serve
 ```
 
+
+
+
+
+
 ### 1. Clone the repository
 ```sh
 git clone https://github.com/yourusername/discord-ollama-bot.git
@@ -103,7 +109,7 @@ node index.js
 ### 5. Start the Discord bot
 Run:
 ```sh
-node bot.js
+npm run bot
 ```
 
 ## Usage
