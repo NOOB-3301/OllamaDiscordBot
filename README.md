@@ -133,6 +133,9 @@ Adding vector db to increase llm memory
 - Improve response handling and error messages.
 - Deploy backend to a cloud-based solution.
 
+## 📝 Available Commands
+- **[`/ping`](commands/README_ping.md)** - Check bot latency.
+
 ## License
 This project is open-source under the [MIT License](LICENSE).
 

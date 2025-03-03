@@ -35,6 +35,13 @@ client.once('ready', () => {
 client.on('messageCreate', async (message) => {
     if (message.author.bot) return;
 
+    // /ping command to check bot latency
+    if (message.content === '/ping') {
+        const latency = Date.now() - message.createdTimestamp;
+        const apiLatency = Math.round(client.ws.ping);
+        return message.reply(`🏓 Latency is ${latency}ms. API Latency is ${apiLatency}ms.`);
+    }
+
     if (message.content.startsWith(PREFIX)) {
         const userMessage = message.content.slice(PREFIX.length).trim();
 
